@@ -18,3 +18,8 @@
 8. Toda retirada é registrada com data e hora
 9. Cada mudança de status no pedido é registrada com data, hora e o funcionário responsável pela alteração
 10. Pedidos não retirados em até 20 dias são cancelados e os itens voltam ao estoque
+    
+## Relatorio:
+O projeto tem como objetivo o desenvolvimento de um sistema voltado para a otimização e o controle do processo de retirada de pedidos realizados online na empresa Translaser.
+O sistema abrange desde o cadastro do cliente e a realização da compra até a separação dos produtos no estoque, o controle de status e o processo final de retirada na loja física.
+Após efetuada a compra, o sistema identifica o pedido e seus respectivos itens, encaminha os pedidos para a fila de separação no estoque e aguarda a retirada na loja. O sistema também mantém um histórico de alterações de status do pedido, que aplica regras de cancelamento e retorno ao estoque para pedidos não retirados dentro do prazo máximo estipulado pela loja.
